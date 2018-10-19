@@ -1,4 +1,4 @@
-package com.tutorialspoint;
+package com.hellospring;
 
 public class HelloWorld {
 	
