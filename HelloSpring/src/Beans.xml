@@ -11,5 +11,8 @@
    
    <bean id = "singleton" class = "scopes.singleton.HelloWorld" scope = "singleton">
    </bean>
+   
+   <bean id = "prototype" class = "scopes.prototype.HelloWorld" scope = "prototype">
+   </bean>
 
 </beans>
