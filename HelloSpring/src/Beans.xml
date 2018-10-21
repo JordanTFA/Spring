@@ -20,5 +20,10 @@
    <bean id = "initDestroy" class = "lifecycle.initdestroy.HelloWorld" init-method = "init" destroy-method = "destroy">
    		<property name = "message" value = "Hello World!"/>
    </bean>
+   
+   <bean id = "postProc" class = "postprocessor.HelloWorld" init-method = "init" destroy-method = "destroy">
+   		<property name = "message" value = "Hello World!"/>
+   </bean>
 
+	<bean class = "postprocessor.InitHelloWorld" />
 </beans>
