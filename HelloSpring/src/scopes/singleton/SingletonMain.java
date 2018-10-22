@@ -7,7 +7,7 @@ public class SingletonMain {
 
 	public static void main(String[] args) {
 
-		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("scopes/singleton/Beans.xml");
 		HelloWorld objA = (HelloWorld)context.getBean("singleton");
 		
 		objA.setMessage("I'm object A!");

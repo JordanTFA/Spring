@@ -7,7 +7,7 @@ public class InitMain {
 
 	public static void main(String[] args) {
 		
-		AbstractApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext("lifecycle/initdestroy/Beans.xml");
 		
 		HelloWorld obj = (HelloWorld)context.getBean("initDestroy");
 		obj.getMessage();

@@ -7,7 +7,7 @@ public class PostMain {
 
 	public static void main(String[] args) {
 
-		AbstractApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext("postprocessor/Beans.xml");
 		
 		HelloWorld obj = (HelloWorld)context.getBean("postProc");
 		obj.getMessage();

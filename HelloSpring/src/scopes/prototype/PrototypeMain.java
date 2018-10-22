@@ -7,7 +7,7 @@ public class PrototypeMain {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("scopes/prototype/Beans.xml");
 		HelloWorld objA = (HelloWorld)context.getBean("prototype");
 		
 		objA.setMessage("I'm object A!");
