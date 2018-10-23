@@ -6,13 +6,13 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
    <bean id = "helloWorld" class = "definition.inheritance.HelloWorld">
-		<property name = "message1" value = "Hello World!"/>
-		<property name = "message2" value = "Hello Second World!"/>
+		<property name = "firstMessage" value = "Hello World!"/>
+		<property name = "secondMessage" value = "Hello Second World!"/>
 	</bean>
 	
    <bean id = "helloScotland" class = "definition.inheritance.HelloScotland" parent = "helloWorld">
-		<property name = "message1" value = "Hello Scotland!"/>
-		<property name = "message3" value = "Hello Second Scotland!"/>
+		<property name = "firstMessage" value = "Hello Scotland!"/>
+		<property name = "thirdMessage" value = "Hello Second Scotland!"/>
 	</bean>	
 	
 </beans>

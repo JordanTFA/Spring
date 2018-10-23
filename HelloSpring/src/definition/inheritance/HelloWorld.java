@@ -15,10 +15,10 @@ public class HelloWorld {
 	}
 	
 	public void getFirstMessage() {
-		System.out.println("First Message: " + firstMessage);
+		System.out.println("World First Message: " + firstMessage);
 	}
 	
 	public void getSecondMessage() {
-		System.out.println("Second Message: " + secondMessage);
+		System.out.println("World Second Message: " + secondMessage);
 	}
 }

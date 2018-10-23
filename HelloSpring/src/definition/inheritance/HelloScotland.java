@@ -20,15 +20,15 @@ public class HelloScotland {
 	}
 	
 	public void getFirstMessage() {
-		System.out.println("First Message: " + firstMessage);
+		System.out.println("Scotland First Message: " + firstMessage);
 	}
 	
 	public void getSecondMessage() {
-		System.out.println("Second Message: " + secondMessage);
+		System.out.println("Scotland Second Message: " + secondMessage);
 	}
 	
 	public void getThirdMessage() {
-		System.out.println("Third Message: " + thirdMessage);
+		System.out.println("Scotland Third Message: " + thirdMessage);
 	}
 
 }
