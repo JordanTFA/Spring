@@ -1,4 +1,4 @@
-package dependency_injection.setter;
+package injection.innerbeans;
 
 public class TextEditor {
 	
@@ -9,12 +9,11 @@ public class TextEditor {
 	}
 
 	public void setSpellChecker(SpellChecker spellChecker) {
-		System.out.println("Inside setSpellChecker");
+		System.out.println("Inside setSpellChecker()");
 		this.spellChecker = spellChecker;
 	}
-	
+
 	public void spellCheck(){
 		spellChecker.checkSpelling();
 	}
-
 }
