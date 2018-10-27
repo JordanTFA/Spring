@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Definition for TextEditor Bean -->
+   <bean id = "textEditor" class = "c6.dependency_injection.setter.TextEditor">
+		<property name = "spellChecker" ref = "spellChecker"/>
+	</bean>
+	
+	<!-- Definition for SpellChecker Bean -->
+	<bean id = "spellChecker" class = "c6.dependency_injection.setter.SpellChecker">
+	</bean>
+</beans>
