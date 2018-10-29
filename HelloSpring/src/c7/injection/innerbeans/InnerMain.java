@@ -11,8 +11,6 @@ public class InnerMain {
 		
 		TextEditor te = (TextEditor)context.getBean("textEditor");
 		te.spellCheck();
-		
-
 	}
 
 }
