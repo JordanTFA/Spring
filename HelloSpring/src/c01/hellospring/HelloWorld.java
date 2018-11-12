@@ -1,4 +1,4 @@
-package c1.hellospring;
+package c01.hellospring;
 
 public class HelloWorld {
 	
