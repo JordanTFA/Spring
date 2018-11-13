@@ -1,4 +1,4 @@
-package c2.scopes.prototype;
+package c02.scopes.prototype;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -7,7 +7,7 @@ public class PrototypeMain {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext("c2/scopes/prototype/Beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("c02/scopes/prototype/Beans.xml");
 		HelloWorld objA = (HelloWorld)context.getBean("prototype");
 		
 		objA.setMessage("I'm object A!");

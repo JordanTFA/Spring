@@ -1,4 +1,4 @@
-package c2.scopes.prototype;
+package c02.scopes.prototype;
 
 public class HelloWorld {
 	   private String message;

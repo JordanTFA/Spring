@@ -1,4 +1,4 @@
-package c2.scopes.singleton;
+package c02.scopes.singleton;
 
 public class HelloWorld {
 	
