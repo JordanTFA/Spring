@@ -11,6 +11,5 @@
 	</bean>
 	
 	<!-- Definition for SpellChecker Bean -->
-	<bean id = "spellChecker" class = "c06.dependency_injection.setter.SpellChecker">
-	</bean>
+	<bean id = "spellChecker" class = "c06.dependency_injection.setter.SpellChecker"></bean>
 </beans>
